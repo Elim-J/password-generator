@@ -9,6 +9,28 @@ h1 {
     margin: 0;
 }
 
+button {
+    background: #F59E0B;
+    color: white;
+    padding: 10px 9px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size:medium;
+}
+
+.div--passwords {
+    display: flex;
+    padding-bottom: 400px;
+}
+
+.password {
+    margin-right: 50px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-top: 0;
+}
 
 /* 
 Dark Mode: 
