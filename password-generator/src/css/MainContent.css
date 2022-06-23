@@ -1,0 +1,18 @@
+body {
+    margin: 0 auto;
+    font-family: inter;
+    padding-top: 0;
+}
+
+h1 {
+    font-family: karla; 
+    margin: 0;
+}
+
+
+/* 
+Dark Mode: 
+random password -> #F9B755 
+generate button background -> #F59E0B
+
+*/

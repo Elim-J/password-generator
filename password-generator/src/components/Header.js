@@ -1,13 +1,20 @@
 import "../css/Header.css"
+import React from "react"
+import starEmpty from "../images/star-empty.png"
+import starFilled from "../images/star-filled.png"
 
 // The Header will only have the star icon for darkmode feature
 
 
-export default function Header(){
+export default function Header(props){
+
+    const star = props.darkMode ? starFilled : starEmpty; 
+    
     return(
         <div>
-            <p>This is the header</p>
-            <p>The header will just hold the img for toggling darkmode</p>
+            <img src={star} alt="" 
+                onClick={props.handleClick}
+            />
         </div>
     )
 }
