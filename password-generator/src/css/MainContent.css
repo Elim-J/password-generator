@@ -4,10 +4,16 @@ body {
     padding-top: 0;
 }
 
+.main-content {
+    text-align: left;
+    padding: 100px 50px 0 50px;
+}
+
 h1 {
     font-family: karla; 
     margin: 0;
 }
+
 
 button {
     background: #F59E0B;
@@ -17,6 +23,11 @@ button {
     border-radius: 6px;
     font-weight: bold;
     font-size:medium;
+    margin-top: 50px;
+}
+
+button:hover {
+    filter: brightness(90%);
 }
 
 .div--passwords {
@@ -30,6 +41,10 @@ button {
     padding: 10px 15px;
     border-radius: 6px;
     margin-top: 0;
+}
+
+hr {
+    margin: 50px 0;
 }
 
 /* 

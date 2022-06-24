@@ -63,12 +63,12 @@ export default function MainContent(props){
     })
 
     return(
-        <div style={myStyles}>
+        <div style={myStyles} className="main-content">
             <h1 style={generateStyles}>Generate a</h1>
             <h1 style={passStyles}>random password</h1>
             <p style={paragraphStyles}>Never use an insecure password again.</p>
-            <button onClick={generateRandomPasswords}>{clicked ? "Hide Passwords" : "Generate Passwords"}</button>
-            <hr></hr>
+            <button onClick={generateRandomPasswords}>{clicked ? "Hide Passwords" : "Generate New Passwords"}</button>
+            <hr />
  
             {/* Make two divs here get generated */}
             <div className="div--passwords">
